@@ -23,9 +23,9 @@ with open('config.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 try:
-    audio_path = data['audio_path']
-    duration = data['duration']
-    out_path = data['out_path']
+    audio_path = data['audio']['audio_path']
+    duration = data['audio']['duration']
+    out_path = data['audio']['out_path']
     print("[当前配置]\n音频路径:{}\n音频间隔:{}\n输出路径:{}".format(audio_path, duration, out_path))
     f.close()
 except Exception as e:

@@ -7,7 +7,7 @@
   },
   {
    "optionDest": "filenames",
-   "value": "F:/github_pro/audio_multiple_in_one(with_interval)/main.py"
+   "value": "E:/GitHub_pro/audio_multiple_in_one-with_interval/main.py"
   },
   {
    "optionDest": "onefile",
@@ -64,10 +64,6 @@
   {
    "optionDest": "argv_emulation",
    "value": false
-  },
-  {
-   "optionDest": "datas",
-   "value": "F:/github_pro/audio_multiple_in_one(with_interval)/config.json;."
   }
  ],
  "nonPyinstallerOptions": {

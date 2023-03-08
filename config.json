@@ -1,5 +1,17 @@
 {
-    "audio_path": "audio",
-    "duration": 521,
-    "out_path": "result.wav"
+    "audio": {
+        "audio_path": "audio",
+        "duration": 521,
+        "out_path": "output/ikaros.wav"
+    },
+    "video": {
+        "audio_path": "output/ikaros.wav",
+        "img_path_arr": ["img/ikaros.png"],
+        "video_fps": 24,
+        "video_width": 1280,
+        "video_height": 720,
+        "video_bitrate": "1000k",
+        "video_codec": "mpeg4",
+        "out_path": "output/ikaros.mp4"
+    }
 }
